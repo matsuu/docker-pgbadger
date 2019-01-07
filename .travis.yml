@@ -1,0 +1,8 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t pgbadger .
+  - docker run -it --rm pgbadger
