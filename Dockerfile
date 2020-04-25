@@ -1,13 +1,13 @@
 FROM alpine
 
-ARG PGBADGER_VER=11.1
+ARG PGBADGER_VER=11.2
 
 RUN \
   apk update && \
   apk upgrade && \
   apk add perl && \
   apk add --virtual .build curl make && \
-  curl -sL https://github.com/darold/pgbadger/archive/v${PGBADGER_VER}.tar.gz | tar zxf - && \
+  curl -sL https://github.com/darold/pgbadger/archive/v${PGBADGER_VER}.tar.gz | tar zx && \
   ( \
     cd pgbadger-${PGBADGER_VER} && \
     perl Makefile.PL && \
