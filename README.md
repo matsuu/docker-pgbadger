@@ -13,7 +13,7 @@ cat slow.log | docker run -i --rm matsuu/pgbadger - -o - -x html > out.html
 ### RDS for PostgreSQL
 
 ```
-cat slow.log | docker run -i --rm matsuu/pgbadger --prefix "%t:%r:%u@%d:[%p]:" - -o - -x html > out.html
+cat slow.log | docker run -i --rm matsuu/pgbadger -f rds - -o - -x html > out.html
 ```
 
 ## References
