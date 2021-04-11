@@ -1,6 +1,6 @@
 FROM alpine
 
-ARG PGBADGER_VER=11.4
+ARG PGBADGER_VER=11.5
 
 RUN \
   apk update && \
