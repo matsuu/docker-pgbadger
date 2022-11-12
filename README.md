@@ -7,7 +7,7 @@ Dockerfile for pgBadger
 ### Images
 
 * Docker Hub: [matsuu/pgbadger](https://hub.docker.com/r/matsuu/pgbadger/)
-* GitHub Container Registry: [ghcr.io/matsuu/pgbadger](https://hub.docker.com/r/matsuu/pgbadger/)
+* GitHub Container Registry: [ghcr.io/matsuu/pgbadger](https://github.com/matsuu/docker-pgbadger/pkgs/container/pgbadger)
 
 ### PostgreSQL with default prefix
 
@@ -32,4 +32,4 @@ docker run -i --rm matsuu/pgbadger --help
 * [pgBadger official site](https://pgbadger.darold.net/)
 * GitHub [matsuu/docker-pgbadger](https://github.com/matsuu/docker-pgbadger)
 * Docker Hub [matsuu/pgbadger](https://hub.docker.com/r/matsuu/pgbadger/)
-* GitHub Container Registry [ghcr.io/matsuu/pgbadger](https://hub.docker.com/r/matsuu/pgbadger/)
+* GitHub Container Registry [ghcr.io/matsuu/pgbadger](https://github.com/matsuu/docker-pgbadger/pkgs/container/pgbadger)
