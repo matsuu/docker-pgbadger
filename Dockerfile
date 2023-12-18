@@ -6,6 +6,7 @@ RUN \
   apk update && \
   apk upgrade && \
   apk add perl && \
+  apk add perl-text-csv_xs && \
   apk add --virtual .build curl make && \
   curl -sL https://github.com/darold/pgbadger/archive/v${PGBADGER_VER}.tar.gz | tar zx && \
   ( \
